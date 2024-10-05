@@ -13,7 +13,6 @@ firebase_admin.initialize_app(cred, {
     'storageBucket': os.getenv('storageBucket')
 })
 
-
 # Importing student images
 folderPath = 'Images'
 pathList = os.listdir(folderPath)
